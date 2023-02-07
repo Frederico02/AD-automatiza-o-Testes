@@ -18,7 +18,7 @@ void adicionar_maquina_ad(std::wstring& nome) {
 
     wchar_t wszUser[] = L"frederico.almeida";
     LPWSTR pwszUser = wszUser;
-    wchar_t wszPassword[] = L"*Fred0202*";
+    wchar_t wszPassword[] = L"******";
     LPWSTR pwszPassword = wszPassword;
 
     NETSETUP_JOIN_STATUS joinStatus;
