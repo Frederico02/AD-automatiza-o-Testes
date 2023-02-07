@@ -1,0 +1,13 @@
+Abra o seu projeto no Visual Studio.
+
+Clique com o botão direito do mouse no nome do projeto na Solution Explorer e selecione Propriedades.
+
+Na janela de propriedades, selecione "Linker" no menu à esquerda.
+
+Selecione "Input" na seção do Linker.
+
+Adicione "netapi32.lib" à lista de bibliotecas adicionais na caixa "Additional Dependencies".
+
+Clique em Aplicar e OK para salvar as alterações.
+
+Agora, recompile o seu projeto e o erro deve ser resolvido.
